@@ -1,3 +1,15 @@
-**OUTWARD DE**
+# Stash Inn Stashes
 
-Add "Stash Packs" to each Inn.  
+Creates a "Stash Pack" in each Inn.
+
+## Details
+
+A simple mod that spawns a stationary pack in each inn.  The packs function just like the playerhouse stash.
+
+**DE compatible**
+
+## Dependencies
+
+_BepInEx_ 
+
+_SideLoader_
