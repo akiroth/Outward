@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<SL_ItemSpawn xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IdentifierName>CierzoStashPack</IdentifierName>
+  <ItemID>3330001</ItemID>
+  <Quantity>1</Quantity>
+  <SceneToSpawnIn>CierzoNewTerrain</SceneToSpawnIn>
+  <SpawnPosition>
+    <x>-373</x>
+    <y>-1495</y>
+    <z>593.4</z>
+  </SpawnPosition>
+  <SpawnRotation>
+    <x>0</x>
+    <y>-.25</y>
+    <z>0</z>
+  </SpawnRotation>
+  <ForceNonPickable>false</ForceNonPickable>
+  <TryLightFueledContainer>true</TryLightFueledContainer>
+</SL_ItemSpawn>

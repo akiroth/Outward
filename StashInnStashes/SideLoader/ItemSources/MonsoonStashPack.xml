@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<SL_ItemSpawn xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IdentifierName>MonsoonStashPack</IdentifierName>
+  <ItemID>3330001</ItemID>
+  <Quantity>1</Quantity>
+  <SceneToSpawnIn>Monsoon</SceneToSpawnIn>
+  <SpawnPosition>
+    <x>-372.0</x>
+    <y>-1500.0</y>
+    <z>557.7</z>
+  </SpawnPosition>
+  <SpawnRotation>
+    <x>0</x>
+    <y>0</y>
+    <z>0</z>
+  </SpawnRotation>
+  <ForceNonPickable>false</ForceNonPickable>
+  <TryLightFueledContainer>true</TryLightFueledContainer>
+</SL_ItemSpawn>
