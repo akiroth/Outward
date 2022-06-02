@@ -1,0 +1,12 @@
+C:\Users\Aaron\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Outward\Projects\myProj\MustStashes\Release\Akiroth.MustStashes.dll.config
+C:\Users\Aaron\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Outward\Projects\myProj\MustStashes\Release\Akiroth.MustStashes.dll
+C:\Users\Aaron\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Outward\Projects\myProj\MustStashes\src\obj\Release\MustStashes.csproj.AssemblyReference.cache
+C:\Users\Aaron\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Outward\Projects\myProj\MustStashes\src\obj\Release\MustStashes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aaron\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Outward\Projects\myProj\MustStashes\src\obj\Release\MustStashes.csproj.CoreCompileInputs.cache
+C:\Users\Aaron\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Outward\Projects\myProj\MustStashes\src\obj\Release\Akiroth.MustStashes.dll
+C:\Users\Aaron\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Outward\Projects\myProj\HostOnlyStash\Release\Akiroth.MustStashes.dll.config
+C:\Users\Aaron\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Outward\Projects\myProj\HostOnlyStash\Release\Akiroth.MustStashes.dll
+C:\Users\Aaron\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Outward\Projects\myProj\HostOnlyStash\src\obj\Release\MustStashes.csproj.AssemblyReference.cache
+C:\Users\Aaron\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Outward\Projects\myProj\HostOnlyStash\src\obj\Release\MustStashes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aaron\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Outward\Projects\myProj\HostOnlyStash\src\obj\Release\MustStashes.csproj.CoreCompileInputs.cache
+C:\Users\Aaron\AppData\Roaming\Thunderstore Mod Manager\DataFolder\Outward\Projects\myProj\HostOnlyStash\src\obj\Release\Akiroth.MustStashes.dll

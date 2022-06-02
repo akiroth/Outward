@@ -1,0 +1,10 @@
+{
+  "name": "HostOnlyStash",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/akiroth/Outward/tree/main/HostOnlyStash/",
+  "description": "Changes the chest stash behavior to only open the world host stash.",
+  "dependencies": [
+    "sinai-dev-SideLoader-3.7.1",
+    "BepInEx-BepInExPack_Outward-5.4.8"
+  ]
+}
