@@ -37,13 +37,15 @@ namespace MustStashes
     public static class SettingsConfig
     {
         private const string CTG_MAIN = "Main";
-        public static ConfigEntry<bool> Stash_Enable_Others;
+        public static ConfigEntry<bool> Stash_Enable_Others; 
+        public static ConfigEntry<bool> Stash_OPEN_HOST;
         public static ConfigEntry<bool> Stash_Enable_Everywhere;
         
         public static void Init(ConfigFile config)
         {
-            Stash_Enable_Others = config.Bind(CTG_MAIN, "Access Other Stashes", true, "Allow players to open each other's stashes");
-            Stash_Enable_Everywhere = config.Bind(CTG_MAIN, "Access Stashes Everywhere", true, "Players can open stashes from both in and outside of towns");
+            Stash_Enable_Others = config.Bind(CTG_MAIN, "Players Can Access Other Stashes", false, "Allow players to open each other's stashes");
+            Stash_OPEN_HOST = config.Bind(CTG_MAIN, "Only Open World Host Stash", false, "Keybind will only open the world host's stash");
+            Stash_Enable_Everywhere = config.Bind(CTG_MAIN, "Access Stashes From Anywhere", false, "Players can also open stashes from outside of towns and cities");
         }
     }
 }

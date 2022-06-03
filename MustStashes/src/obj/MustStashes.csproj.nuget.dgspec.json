@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\TEST\\src\\MustStashes.csproj": {}
+    "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\MustStashes\\src\\MustStashes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\TEST\\src\\MustStashes.csproj": {
+    "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\MustStashes\\src\\MustStashes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\TEST\\src\\MustStashes.csproj",
+        "projectUniqueName": "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\MustStashes\\src\\MustStashes.csproj",
         "projectName": "Akiroth.MustStashes",
-        "projectPath": "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\TEST\\src\\MustStashes.csproj",
+        "projectPath": "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\MustStashes\\src\\MustStashes.csproj",
         "packagesPath": "C:\\Users\\Aaron\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\TEST\\src\\obj\\",
+        "outputPath": "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\MustStashes\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\TEST\\src\\NuGet.Config",
+          "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\MustStashes\\src\\NuGet.Config",
           "C:\\Users\\Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

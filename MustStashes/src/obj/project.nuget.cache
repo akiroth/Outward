@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2fiK182S1p0W1qgTJE2Pkuo1QEKVqBi2pt6bYEmMKfNsa10VPuWsPJbXojiHJb77bSlAqnueKDbTUzQjZhd/dw==",
+  "dgSpecHash": "IM2XsayGRiDh39qE2MMyEVohPFt0nubx/trWRmp/rAPC6kvYUQi5GaxQHABeq5fPUL/R37ClbrW7Z+/LKO+P7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\TEST\\src\\MustStashes.csproj",
+  "projectFilePath": "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\MustStashes\\src\\MustStashes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aaron\\.nuget\\packages\\bepinex.baselib\\5.4.16\\bepinex.baselib.5.4.16.nupkg.sha512",
     "C:\\Users\\Aaron\\.nuget\\packages\\harmonyx\\2.5.7\\harmonyx.2.5.7.nupkg.sha512",

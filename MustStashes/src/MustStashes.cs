@@ -18,7 +18,7 @@ namespace MustStashes
         public static MustStashes Instance;
         public const string GUID = "Akiroth.MustStashes";
         public const string NAME = "Must-Stashes";
-        public const string VERSION = "1.0.0";
+        public const string VERSION = "1.1.0";
 
         //public static Settings settings;
 
@@ -61,7 +61,7 @@ namespace MustStashes
             }
 
             // Check if your in a city/town
-            if (!AreaManager.Instance.GetIsCurrentAreaTownOrCity() && !SettingsConfig.Stash_Enable_Everywhere.Value)
+            if ( !AreaManager.Instance.GetIsCurrentAreaTownOrCity() && !SettingsConfig.Stash_Enable_Everywhere.Value )
             {
                 return;
             }
@@ -71,12 +71,15 @@ namespace MustStashes
             {
                 OpenStashManager(playerID, playerID);
             }
+
+            // Handle KeyPress
             if (CustomKeybindings.GetKeyDown(STASH_KEY_1, out playerID))
             {
-                if (!SettingsConfig.Stash_Enable_Others.Value) //stop if opening other stashes is disallowed
+                if ( !SettingsConfig.Stash_Enable_Others.Value || SettingsConfig.Stash_OPEN_HOST.Value ) //stop if opening other stashes is disallowed
                 {
                     return;
                 }
+
                 if (playerID == 0)
                 {
                     OpenStashManager(playerID, 1);
@@ -90,33 +93,79 @@ namespace MustStashes
 
         public static void OpenStashManager(int playerID, int targetID)
         {
-            try  // Do nothing if the game is paused
+            try
             {
-                Log.LogMessage($"{playerID} for {targetID}");
-                Character Char0 = CharacterManager.Instance.GetCharacter(CharacterManager.Instance.PlayerCharacters.Values[playerID]);
-                Character Char1 = CharacterManager.Instance.GetCharacter(CharacterManager.Instance.PlayerCharacters.Values[targetID]);
-                ItemContainer CharStash = Char1.Stash;
+                Character Char0;
+                Character Char1;
+                if (playerID == 0)
+                {
+                    Char0 = CharacterManager.Instance.GetFirstLocalCharacter();
 
+                    if ( SettingsConfig.Stash_OPEN_HOST.Value )
+                    {
+                        Char1 = CharacterManager.Instance.GetWorldHostCharacter();
+                        Log.LogDebug($"OpenStashManager: Opened World Host's Stash");
+                    }
+                    else
+                    {
+                        if ( targetID == 0 )
+                        {
+                            Char1 = Char0;
+                            Log.LogDebug($"OpenStashManager: Opened {Char0.Name}'s Stash");
+                        }
+                        else
+                        {
+                            Character charHost = CharacterManager.Instance.GetWorldHostCharacter();
+                            if ( Char0.UID == charHost.UID )
+                            {
+                                Char1 = CharacterManager.Instance.GetCharacter(CharacterManager.Instance.PlayerCharacters.Values[1]);
+                                Log.LogDebug($"OpenStashManager: Opened {Char1.Name}'s Guest Stash for {Char0.Name}");
+                            }
+                            else
+                            {
+                                Char1 = charHost;
+                                Log.LogDebug($"OpenStashManager: Opened {Char1.Name}'s Host Stash for {Char0.Name}");
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    Char0 = CharacterManager.Instance.GetSecondLocalCharacter();
+                    
+                    if (SettingsConfig.Stash_OPEN_HOST.Value)
+                    {
+                        Char1 = CharacterManager.Instance.GetWorldHostCharacter();
+                        Log.LogDebug($"OpenStashManager: Opened World Host's Stash");
+                    }
+                    else
+                    {
+                        if (targetID == 0)
+                        {
+                            Char1 = Char0;
+                            Log.LogDebug($"OpenStashManager: Opened {Char0.Name}'s Stash");
+                        }
+                        else
+                        {
+                            Char1 = CharacterManager.Instance.GetWorldHostCharacter();
+                            Log.LogDebug($"OpenStashManager: Opened {Char1.Name}'s Local Stash for {Char0.Name}");
+                        }
+                    }
+                }
+
+                // Set&load the stash contents then open the stash window
+                ItemContainer CharStash = Char1.Stash;
                 Char0.CharacterUI.StashPanel.SetStash(CharStash);
                 CharStash.ShowContent(Char0);
-                //targetC.CharacterUI.StashPanel.SetStash(CharStash);
-                //playerC.CharacterUI.StashPanel.Show();
-                //CharStash.ShowContent(playerC); 
-                Log.LogDebug($"Opened {Char1.Name} Stash for {Char0.Name}");
+
+                Log.LogDebug($"OpenStashManager: Opened {Char1.Name} Stash for {Char0.Name}");
                 return;
             }
-            catch
+            catch (Exception ex)
             {
-                Log.LogError($"#{playerID} Failed to open Stash!");
+                Log.LogError("OpenStashManager:" + ex.Message);
                 return;
             }
-
-            //Character character = CharacterManager.Instance.GetCharacter(CharacterManager.Instance.PlayerCharacters.Values[0]); 
-            //var StashID = character.CharacterInventory.Stash.value(ItemContainer); "m_characterStash" "StashPrefab"
-            //    object (UID)
-            //System.ModalMenus.StashPanel.Show();
-            //ItemContainer.ShowContent(character)
-
         }
 
         // This is an example of a Harmony patch.
