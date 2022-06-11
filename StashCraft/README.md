@@ -14,26 +14,35 @@ You can adjust the preservation value for your stash (default 0 - none).  It wor
 
 ## Configurations
 
-Craft Panel
-Display Ingredient Quantities:  Craft & ingredient panels show item quantities.
-Display Recipe Item Count:  Recipes show how many items you already have.
+### Craft Panel
+**Display Ingredient Quantities**:  Craft & ingredient panels show item quantities.
 
-Item Details Panel
-Display Quantities:  Display the total quantity (includes your stash if you can access it) in item names.
-Display Sell Price:  Display the estimated sell price (and price per lb.).
-Display Durability:  Display the durability for perishables.
-Display Perish Times:  Convert perishable durability to game time.
-Perish Time Override:  Display torch & lantern durability value instead of game time.
+**Display Recipe Item Count**:  Recipes show how many items you already have.
 
-Stash Crafting
-Craft from your stash:  Allows you to use items from your stash to craft.
-Craft from the world host stash:  If crafting from stashes is enabled, craft from the world hosts stash.
-Usable Outside of Towns:  Enables the use of crafting from stashes outside of town.
+### Item Details Panel
+**Display Quantities**:  Display the total quantity (includes your stash if you can access it) in item names.
 
-Additional Stash Options
-Stash Filters:  Add inventory filters to the stash panel.  Setting applied whenever the stash panel is opened.
-Stash Preservation:  Preservation for stash contents (works just like packs). Setting applied whenever the stash panel is opened and on area load.
-Stash Preservation from Packs:  Preservation determined by highest of the stash and contained packs.
+**Display Sell Price**:  Display the estimated sell price (and price per lb.).
+
+**Display Durability**:  Display the durability for perishables.
+
+**Display Perish Times**:  Convert perishable durability to game time.
+
+**Perish Time Override**:  Display torch & lantern durability value instead of game time.
+
+### Stash Crafting
+**Craft from your stash**:  Allows you to use items from your stash to craft.
+
+**Craft from the world host stash**:  If crafting from stashes is enabled, craft from the world hosts stash.
+
+**Usable Outside of Towns**:  Enables the use of crafting from stashes outside of town.
+
+### Additional Stash Options
+**Stash Filters**:  Add inventory filters to the stash panel.  Setting applied whenever the stash panel is opened.
+
+**Stash Preservation**:  Preservation for stash contents (works just like packs). Setting applied whenever the stash panel is opened and on area load.
+
+**Stash Preservation from Packs**:  Preservation determined by highest of the stash and contained packs.
 
 ## Credits
 
