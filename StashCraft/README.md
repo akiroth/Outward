@@ -55,3 +55,7 @@ _Definitive Edition_
 _BepInEx_
 
 _SideLoader_
+
+## Updates
+
+1.0.1 - Minor fix for stash filter tab names.
