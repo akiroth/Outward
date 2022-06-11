@@ -1,0 +1,10 @@
+{
+  "name": "StashCraft",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/akiroth/Outward/blob/main/StashCraft",
+  "description": "Enables crafting directly from your stash and adds some QoL options.",
+  "dependencies": [
+    "sinai-dev-SideLoader-3.7.1",
+    "BepInEx-BepInExPack_Outward-5.4.8"
+  ]
+}

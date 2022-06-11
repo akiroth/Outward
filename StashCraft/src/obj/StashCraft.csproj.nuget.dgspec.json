@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\CraftStash\\src\\StashCraft.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\CraftStash\\src\\StashCraft.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\CraftStash\\src\\StashCraft.csproj",
+        "projectName": "StashCraft",
+        "projectPath": "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\CraftStash\\src\\StashCraft.csproj",
+        "packagesPath": "C:\\Users\\Aaron\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\CraftStash\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\CraftStash\\src\\NuGet.Config",
+          "C:\\Users\\Aaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "BepInEx.BaseLib": {
+              "target": "Package",
+              "version": "[5.4.16, )"
+            },
+            "HarmonyX": {
+              "target": "Package",
+              "version": "[2.5.7, )"
+            },
+            "Outward.GameLibs": {
+              "target": "Package",
+              "version": "[2022.5.18-r.0, )"
+            },
+            "Outward.SideLoader": {
+              "target": "Package",
+              "version": "[3.7.7, )"
+            },
+            "UnityEngine.Modules": {
+              "target": "Package",
+              "version": "[2020.3.26, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "M2wJRbnjOdxB9uSC2MZX7p6fjahrekk+cFNEazlr6y5EW88X0wYOPgRFUvrv9Pitlf35RozM426Kkcxne3VEWA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aaron\\AppData\\Roaming\\Thunderstore Mod Manager\\DataFolder\\Outward\\Projects\\myProj\\CraftStash\\src\\StashCraft.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aaron\\.nuget\\packages\\bepinex.baselib\\5.4.16\\bepinex.baselib.5.4.16.nupkg.sha512",
+    "C:\\Users\\Aaron\\.nuget\\packages\\harmonyx\\2.5.7\\harmonyx.2.5.7.nupkg.sha512",
+    "C:\\Users\\Aaron\\.nuget\\packages\\mono.cecil\\0.11.4\\mono.cecil.0.11.4.nupkg.sha512",
+    "C:\\Users\\Aaron\\.nuget\\packages\\monomod.runtimedetour\\21.10.10.1\\monomod.runtimedetour.21.10.10.1.nupkg.sha512",
+    "C:\\Users\\Aaron\\.nuget\\packages\\monomod.utils\\21.10.10.1\\monomod.utils.21.10.10.1.nupkg.sha512",
+    "C:\\Users\\Aaron\\.nuget\\packages\\outward.gamelibs\\2022.5.18-r.0\\outward.gamelibs.2022.5.18-r.0.nupkg.sha512",
+    "C:\\Users\\Aaron\\.nuget\\packages\\outward.sideloader\\3.7.7\\outward.sideloader.3.7.7.nupkg.sha512",
+    "C:\\Users\\Aaron\\.nuget\\packages\\unityengine.modules\\2020.3.26\\unityengine.modules.2020.3.26.nupkg.sha512"
+  ],
+  "logs": []
+}
