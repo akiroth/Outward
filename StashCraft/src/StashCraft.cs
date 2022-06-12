@@ -21,7 +21,7 @@ namespace StashCraft
         public static StashCraft Instance;
         public const string GUID = "Akiroth.StashCraft";
         public const string NAME = "StashCraft";
-        public const string VERSION = "1.0.0";
+        public const string VERSION = "1.0.1";
 
         //public static Settings settings;
 
@@ -213,6 +213,10 @@ namespace StashCraft
                 if (Char.CharacterUI.StashPanel.m_sectionPanel == null)
                 {
                     InventorySectionDisplay invFilters = Char.CharacterUI.InventoryPanel.m_sectionPanel;
+                    foreach (InventorySectionButton fButt in invFilters.GetComponentsInChildren<InventorySectionButton>()) // load tab titles
+                    { 
+                        fButt.StartInit(); 
+                    }
                     InventorySectionDisplay stashFilters = InventorySectionDisplay.Instantiate(invFilters, Char.CharacterUI.StashPanel.m_inventoryDisplay.transform, false) as InventorySectionDisplay;
                     Char.CharacterUI.StashPanel.m_sectionPanel = stashFilters;
                     Char.CharacterUI.StashPanel.m_stashInventory.SetFilter(Char.CharacterUI.StashPanel.m_inventoryDisplay.Filter);

@@ -13,16 +13,19 @@ namespace StashCraft.Hooks
         [HarmonyPrefix]
         public static bool Show(StashPanel __instance)
         {
-            StashCraft.SetStashPreservation();
+            if(NetworkLevelLoader.Instance.AllPlayerReadyToContinue)
+            {
+                StashCraft.SetStashPreservation();
 
 
-            if (!SettingsConfig.cfg_Stash_Filter.Value)
-            {
-                StashCraft.RemoveStashFilter(__instance.LocalCharacter);
-            }
-            else
-            {
-                StashCraft.MakeStashFilter(__instance.LocalCharacter);
+                if (!SettingsConfig.cfg_Stash_Filter.Value)
+                {
+                    StashCraft.RemoveStashFilter(__instance.LocalCharacter);
+                }
+                else
+                {
+                    StashCraft.MakeStashFilter(__instance.LocalCharacter);
+                }
             }
             return true;
         }
